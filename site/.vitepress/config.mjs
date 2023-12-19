@@ -1,10 +1,10 @@
 import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/lightningjs.io/",
+  base: "/",
   title: "Lightningjs Site",
   description: "Lightningjs Nexus of Information",
-  outDir: "../public",
+  outDir: "../dist",
   head: [
     ['link', { rel: 'stylesheet', href: 'https://unpkg.com/tailwindcss@2.0.4/dist/tailwind.min.css' }],
     ['link', { rel: "icon", sizes: "16x16", type: "image/png", href: "./assets/favicons/lng_16x16.png"}],
@@ -40,6 +40,6 @@ export default defineConfig({
     ]
   },
   vite: {
-    base: "/lightningjs.io/"
+    base: "/"
   }
 })
