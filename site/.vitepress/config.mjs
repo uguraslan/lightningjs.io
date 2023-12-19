@@ -7,8 +7,8 @@ export default defineConfig({
   outDir: "../dist",
   head: [
     ['link', { rel: 'stylesheet', href: 'https://unpkg.com/tailwindcss@2.0.4/dist/tailwind.min.css' }],
-    ['link', { rel: "icon", sizes: "16x16", type: "image/png", href: "./assets/favicons/lng_16x16.png"}],
-    ['link', { rel: "icon", sizes: "32x32", type: "image/png", href: "./assets/favicons/lng_32x32.png"}]
+    ['link', { rel: "icon", sizes: "16x16", type: "image/png", href: "../assets/favicons/lng_16x16.png"}],
+    ['link', { rel: "icon", sizes: "32x32", type: "image/png", href: "../assets/favicons/lng_32x32.png"}]
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
